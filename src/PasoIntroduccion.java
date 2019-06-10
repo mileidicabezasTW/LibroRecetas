@@ -12,6 +12,11 @@ public class PasoIntroduccion extends PasoReceta {
     public String getId() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "INTRODUCCION: "+getDescripcion();
+    }
 }
 
 
