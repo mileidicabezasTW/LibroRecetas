@@ -1,0 +1,22 @@
+public class PasoIntroduccion extends PasoReceta {
+    private String id;
+
+    public PasoIntroduccion(){
+
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return "INTRODUCCION: "+getDescripcion();
+    }
+}
+
+
